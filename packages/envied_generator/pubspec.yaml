@@ -1,4 +1,4 @@
-name: envied_generator
+name: envied_flutter_generator
 description: Generator for the Envied package. See https://pub.dev/packages/envied.
 version: 0.3.0
 repository: https://github.com/petercinibulk/envied
@@ -8,7 +8,7 @@ environment:
   sdk: ">=2.17.1 <3.0.0"
 
 dependencies:
-  envied: ^0.3.0
+  envied_flutter: ^0.3.0
   build: ^2.3.0
   source_gen: ^1.2.2
   analyzer: ^5.1.0
@@ -17,3 +17,6 @@ dev_dependencies:
   lints: ^2.0.0
   test: ^1.16.0
   source_gen_test: ^1.0.3
+dependency_overrides:
+  envied_flutter:
+    path: ../envied

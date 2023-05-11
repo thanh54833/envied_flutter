@@ -3,4 +3,4 @@
 /// More dartdocs go here.
 library envied_generator;
 
-export 'package:envied_generator/src/generator.dart' show EnviedGenerator;
+export 'package:envied_flutter_generator/src/generator.dart' show EnviedGenerator;

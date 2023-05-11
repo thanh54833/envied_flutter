@@ -1,4 +1,4 @@
-import 'package:envied/envied.dart';
+import 'package:envied_flutter/envied.dart';
 import 'package:test/test.dart';
 
 void main() {

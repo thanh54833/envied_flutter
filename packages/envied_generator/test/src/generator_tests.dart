@@ -1,4 +1,4 @@
-import 'package:envied/envied.dart';
+import 'package:envied_flutter/envied.dart';
 import 'package:source_gen_test/annotations.dart';
 
 @ShouldThrow('`@Envied` can only be used on classes.')

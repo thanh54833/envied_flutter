@@ -48,7 +48,7 @@ export VAR=test
 and a dart class:
 
 ```dart
-import 'package:envied/envied.dart';
+import 'package:envied_flutter/envied.dart';
 
 part 'env.g.dart'
 
@@ -112,7 +112,7 @@ Create a class to ingest the environment variables (`lib/env/env.dart`). Add the
 
 ```dart
 // lib/env/env.dart
-import 'package:envied/envied.dart';
+import 'package:envied_flutter/envied.dart';
 
 part 'env.g.dart';
 

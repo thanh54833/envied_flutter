@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:analyzer/dart/constant/value.dart';
 import 'package:analyzer/dart/element/element.dart';
 import 'package:build/build.dart';
-import 'package:envied/envied.dart';
-import 'package:envied_generator/src/generate_line.dart';
-import 'package:envied_generator/src/generate_line_encrypted.dart';
-import 'package:envied_generator/src/load_envs.dart';
+import 'package:envied_flutter/envied.dart';
+import 'package:envied_flutter_generator/src/generate_line.dart';
+import 'package:envied_flutter_generator/src/generate_line_encrypted.dart';
+import 'package:envied_flutter_generator/src/load_envs.dart';
 import 'package:source_gen/source_gen.dart';
 
 /// Generate code for classes annotated with the `@Envied()`.

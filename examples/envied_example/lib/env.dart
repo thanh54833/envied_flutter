@@ -1,18 +1,19 @@
 // lib/env/env.dart
-import 'package:envied/envied.dart';
+import 'package:envied_flutter/envied.dart';
 
 part 'env.g.dart';
 
 @Envied(path: '.env')
 abstract class Env {
-  @EnviedField(varName: 'KEY1')
-  static const key1 = _Env.key1;
-  @EnviedField(varName: 'KEY2')
-  static const key2 = _Env.key2;
-  @EnviedField()
-  static const String key3 = _Env.key3;
-  @EnviedField()
-  static const int key4 = _Env.key4;
-  @EnviedField()
-  static const bool key5 = _Env.key5;
+  @EnviedField(
+    varName: 'KEY1',
+    obfuscate: true,
+  )
+  static final key1 = _Env.key1;
+
+  @EnviedField(
+    varName: 'KEY2',
+    obfuscate: true,
+  )
+  static final key2 = _Env.key2;
 }
